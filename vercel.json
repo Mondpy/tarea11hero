@@ -3,9 +3,9 @@
         {
             "src":"python_heroku_task/wsgi.py",
             "use":"@vercel/python",
-            "confi": {
+            "config": {
                 "maxLambdaSize": "15mb",
-                "runtime": "python3.10.12",
+                "runtime": "python3.9"
             }
         }
     ],
